@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import { ButtonAgil } from './components/ButtonAgil';
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
+                <ButtonAgil classe="customButtonSmall"></ButtonAgil>
+                <ButtonAgil classe="customButtonLarge"></ButtonAgil>
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
